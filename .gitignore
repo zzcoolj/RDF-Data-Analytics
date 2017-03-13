@@ -1,0 +1,11 @@
+# Data files #
+RDFDataVisualizationTool/d3/bar_chart/pie-data.csv
+RDFDataVisualizationTool/d3/sequences_sunburst/data/*
+RDFDataVisualizationTool/Java/data/*
+
+# IDE configuration files #
+RDFDataVisualizationTool/d3/.idea/*
+
+# OS generated files #
+######################
+.DS_Store
