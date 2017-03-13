@@ -1,0 +1,14 @@
+s1	http://www.w3.org/1999/02/22-rdf-syntax-ns#pOne	o1
+s1	http://www.w3.org/1999/02/22-rdf-syntax-ns#pTwo	o3
+s1	http://www.w3.org/1999/02/22-rdf-syntax-ns#pTwo	o6
+s1	http://www.w3.org/1999/02/22-rdf-syntax-ns#pTwo	o9
+s2	http://www.w3.org/1999/02/22-rdf-syntax-ns#pOne	o1
+s2	http://www.w3.org/1999/02/22-rdf-syntax-ns#pThree	o4
+s3	http://www.w3.org/1999/02/22-rdf-syntax-ns#pOne	o1
+s3	http://www.w3.org/1999/02/22-rdf-syntax-ns#pTwo	o2
+s3	http://www.w3.org/1999/02/22-rdf-syntax-ns#pThree	o5
+s4	http://www.w3.org/1999/02/22-rdf-syntax-ns#pOne	o7
+s4	http://www.w3.org/1999/02/22-rdf-syntax-ns#pThree	o8
+s1	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	typeOne
+s2	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	typeTwo
+s3	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	typeThree
