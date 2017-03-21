@@ -1,0 +1,27 @@
+How to install this customized parser:
+
+1. Place test_parser.c, Makefile, create_customized_functions_parser_cfg.sql and drop_customized_cfg_parser_functions.sql in a directory (let's say $dir)
+
+2. Get paths of $libdir and $includedir-server
+In terminal, enter:
+pg_config  --pkglibdir
+	to get the path $libdir;
+pg_config --includedir-server
+	to get the path $includedir-server
+
+3. Modify Makefile
+Open Makefile file and change "/Applications/Postgres.app/Contents/Versions/9.5/lib/postgresql" to $libdir;
+Change "/Applications/Postgres.app/Contents/Versions/9.5/include/postgresql/server" to $includedir-server.
+
+4. $dir > make
+
+5. $dir > make install (as root)
+
+6. $dir > psql dbName < create_customized_functions_parser_cfg.sql 
+
+7. Test the customized parser
+Open psql and enter command:
+SELECT * FROM ts_parse('testparser','That''s my first own parser');
+
+8. (Optional) If you want to delete the customized parser in PostgreSQL server:
+$dir > psql dbName < drop_customized_cfg_parser_functions.sql
