@@ -1,10 +1,18 @@
 # Data files #
+##############
 RDFDataVisualizationTool/d3/bar_chart/pie-data.csv
 RDFDataVisualizationTool/d3/sequences_sunburst/data/*
 RDFDataVisualizationTool/Java/data/*
+exploratory-rdf-analytics/data/*
+exploratory-rdf-analytics/pom.xml
+exploratory-rdf-analytics/target
 
 # IDE configuration files #
+###########################
 RDFDataVisualizationTool/d3/.idea/*
+exploratory-rdf-analytics/.settings
+exploratory-rdf-analytics/.classpath
+exploratory-rdf-analytics/.project
 
 # OS generated files #
 ######################
