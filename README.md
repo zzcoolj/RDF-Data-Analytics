@@ -14,14 +14,11 @@ rdf_analytics/
 └── exploratory-rdf-analytics
     ├── Draft
     ├── data
-    ├── src
-    │   ├── main
-    │   │   ├── java
-    │   │   │   ├── exploratoryRDFAnalytics
-    │   │   │   └── lattice
-    │   │   └── resources
-    │   └── test
-    └── target
+    └── src
+      └── main
+          └── java
+              ├── exploratoryRDFAnalytics
+              └── lattice
 ```
 ## RDFDataVisualizationTool
 If you just want to use this tool, all you need is this folder. Follow `README` instructions in `RDFDataVisualizationTool` folder, which contains two main steps:
